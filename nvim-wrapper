@@ -12,6 +12,7 @@ from time import time
 APP_ID = 'org.neovim'
 CLASS = 'neovim'
 NAME = 'Neovim'
+THEME = 'Gruvbox Dark'
 
 def find_terminal_server():
     candidates = list(filter(os.path.exists, \
@@ -32,6 +33,7 @@ SERVER_CMD = [
 ]
 TERM_CMD = [
     'gnome-terminal',
+    '--tab-with-profile', THEME,
     '--app-id', APP_ID,
     '--class', CLASS,
     '--name', NAME,
