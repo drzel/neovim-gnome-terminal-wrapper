@@ -44,3 +44,7 @@ After this, make sure the neovim python package is installed from the correct pa
 ~~~
 /usr/bin/pip3 install --user neovim
 ~~~
+
+### Make this work with gruvbox
+
+- Install gruvbox-dark for gnome-terminal from: https://github.com/Mayccoll/Gogh
